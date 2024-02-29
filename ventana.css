@@ -1,0 +1,18 @@
+ventana{
+    position:absolut;
+    with:500px;
+    left: 0;
+    right: 0;
+    margin:auto;
+    z-index:11;
+    }
+    
+    ventana-in {
+    position:relative;
+    }
+    
+    close{
+    position:absolute;
+    right: 0;
+    z-index:13;
+    }
