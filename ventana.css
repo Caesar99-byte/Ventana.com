@@ -1,18 +1,41 @@
-ventana{
-    position:absolut;
-    with:500px;
+.ventana{
+    position:absolute;
+    width:500px;
+    height: 200px;
     left: 0;
     right: 0;
     margin:auto;
-    z-index:11;
+    border: 1px solid ;
     }
     
-    ventana-in {
+    .ventana-in {
     position:relative;
     }
+
+    .titulo-bar{
+        background-color: aliceblue;
+        height: 30px;
+        padding: 0 10px;
+    }
     
-    close{
+    .close{
     position:absolute;
+    padding: 0 10px;
+    cursor: pointer; 
     right: 0;
-    z-index:13;
+    top: 0;   
+    background-color: #ff5f56;
+    color: #fff;
+    }
+
+    .content-body{
+        padding: 10px;
+    }
+
+    .ventana{
+        display: none;
+    }
+
+    .ventana.open{
+        display: block;
     }
