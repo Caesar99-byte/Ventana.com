@@ -1,11 +1,11 @@
-.ventana{
+.ventana-open{
     position:absolute;
     width:500px;
     height: 200px;
     left: 0;
     right: 0;
     margin:auto;
-    border: 1px solid ;
+    border: 1px solid #000;
     }
     
     .ventana-in {
@@ -17,6 +17,11 @@
         height: 30px;
         padding: 0 10px;
     }
+    /*.titulo-bar-text{
+        background-color: #f1f1f1;
+        height: 30px;
+        padding: 0 10px;
+    }*/
     
     .close{
     position:absolute;
@@ -28,8 +33,9 @@
     color: #fff;
     }
 
-    .content-body{
+    .ventana-open .content-body p{
         padding: 10px;
+        color: #ff5f56;
     }
 
     .ventana{
