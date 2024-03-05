@@ -1,4 +1,4 @@
-.ventana-open{
+.ventana{
     position:absolute;
     width:500px;
     height: 200px;
@@ -33,7 +33,7 @@
     color: #fff;
     }
 
-    .ventana-open .content-body p{
+    .ventana .content-body p{
         padding: 10px;
         color: #ff5f56;
     }
@@ -44,4 +44,13 @@
 
     .ventana.open{
         display: block;
+    }
+
+    .open-button{
+        padding: 10px 20px;
+        background-color: antiquewhite;
+        cursor: pointer;
+        margin-top: 20px;
+        border: 1px solid #000;
+        display: inline-block;
     }
